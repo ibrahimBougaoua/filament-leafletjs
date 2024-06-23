@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "ibrahimbougaoua/filament-leafletjs",
+    "description": "Leaflet is the leading open-source JavaScript library for mobile-friendly interactive maps.",
     "keywords": [
-        ":vendor_name",
+        "IbrahimBougaoua",
         "laravel",
-        ":package_slug"
+        "filament-leafletjs"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/ibrahimbougaoua/filament-leafletjs",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Ibrahim Bougaoua",
+            "email": "41789518+ibrahimBougaoua@users.noreply.github.com",
             "role": "Developer"
         }
     ],
@@ -35,19 +35,19 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src/",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories/"
+            "IbrahimBougaoua\\FilamentLeafletjs\\": "src/",
+            "IbrahimBougaoua\\FilamentLeafletjs\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests/",
+            "IbrahimBougaoua\\FilamentLeafletjs\\Tests\\": "tests/",
             "Workbench\\App\\": "workbench/app/"
         }
     },
     "scripts": {
         "post-autoload-dump": "@composer run prepare",
-        "clear": "@php vendor/bin/testbench package:purge-skeleton --ansi",
+        "clear": "@php vendor/bin/testbench package:purge-filament-leafletjs --ansi",
         "prepare": "@php vendor/bin/testbench package:discover --ansi",
         "build": [
             "@composer run prepare",
@@ -73,10 +73,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "IbrahimBougaoua\\FilamentLeafletjs\\FilamentLeafletjsServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "FilamentLeafletjs": "IbrahimBougaoua\\FilamentLeafletjs\\Facades\\FilamentLeafletjs"
             }
         }
     },

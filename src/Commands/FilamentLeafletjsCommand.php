@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace IbrahimBougaoua\FilamentLeafletjs\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class FilamentLeafletjsCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'filament-leafletjs';
 
     public $description = 'My command';
 

@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton;
+namespace IbrahimBougaoua\FilamentLeafletjs;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use VendorName\Skeleton\Commands\SkeletonCommand;
+use IbrahimBougaoua\FilamentLeafletjs\Commands\FilamentLeafletjsCommand;
 
-class SkeletonServiceProvider extends PackageServiceProvider
+class FilamentLeafletjsServiceProvider extends PackageServiceProvider
 {
     public function configurePackage(Package $package): void
     {
@@ -16,10 +16,10 @@ class SkeletonServiceProvider extends PackageServiceProvider
          * More info: https://github.com/spatie/laravel-package-tools
          */
         $package
-            ->name('skeleton')
+            ->name('filament-leafletjs')
             ->hasConfigFile()
             ->hasViews()
-            ->hasMigration('create_skeleton_table')
-            ->hasCommand(SkeletonCommand::class);
+            ->hasMigration('create_filament-leafletjs_table')
+            ->hasCommand(FilamentLeafletjsCommand::class);
     }
 }
