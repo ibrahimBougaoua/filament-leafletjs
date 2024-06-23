@@ -2,9 +2,9 @@
 
 namespace IbrahimBougaoua\FilamentLeafletjs;
 
+use IbrahimBougaoua\FilamentLeafletjs\Commands\FilamentLeafletjsCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use IbrahimBougaoua\FilamentLeafletjs\Commands\FilamentLeafletjsCommand;
 
 class FilamentLeafletjsServiceProvider extends PackageServiceProvider
 {
